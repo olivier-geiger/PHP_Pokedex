@@ -1,0 +1,143 @@
+body {
+    background-color: #c14040;
+    font-family: 'Bree Serif', serif;
+    color: #efe3e3;
+}
+
+main {
+    margin: 1.5rem;
+}
+
+header {
+    background-color: #efe3e3;
+    padding: 1rem;
+    color: #c14040;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+
+.header__title {
+    font-size: 1.2rem;
+}
+
+.nav__link {
+    margin-left: 0.5rem;
+}
+
+/* PAGE HOME */
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list__item {
+    background-color: #982c2c;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: calc(33% - 0.5rem);
+    margin: 0.5rem 0;
+}
+
+.list__item img {
+    max-width: 100%;
+}
+
+/*  PAGE DETAIL */
+.pokemon__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.detail img {
+    width: 35%;
+}
+
+.detail__info {
+    width: 100%;
+    background-color: #ab3838;
+    margin: 0 0 0 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.detail__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0 2rem 0;
+}
+
+.btn {
+   padding: 0.5rem; 
+   border-radius: 0.5rem;
+   margin: 0 0.5rem 0 0;
+}
+
+.stat__title {
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem 0;
+    font-weight: bold;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.stat__item {
+    width: 15%;
+}
+
+.stat__bar {
+    width: 60%;
+    display: flex;
+}
+
+.stat__bar--white {
+    height: 2rem;
+    background-color: #efe3e3;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.stat__bar--dark {
+    height: 2rem;
+    background-color: #632b2b;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.link {
+    display: block;
+    text-align: center;
+}
+
+/* PAGE TYPE */
+
+.list-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.list-type__item {
+    width: calc(25% - 0.5rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+}
